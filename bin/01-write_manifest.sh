@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Provenance for one SRA accession: sha256 of every fastq.gz + UTC ingest timestamp.
+# provenance for one SRA accession
 # usage: write_manifest.sh <sra_id> <max_reads>
 set -euo pipefail
 sra_id="$1"; max_reads="$2"

@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
-# Validate the metadata table and reduce it to (sample_id, value) for the variable of interest.
-# The sample id column is the first column whose values are all SRA/ENA/DDBJ run accessions.
+# validate the metadata table and reduce it to (sample_id, value)
+
 a <- commandArgs(trailingOnly = TRUE)
 opt <- function(k, d = NULL) { i <- match(paste0("--", k), a); if (is.na(i)) d else a[i + 1] }
 

@@ -32,6 +32,6 @@ process FETCH_SRA {
     fi
     gzip -f ${sra_id}*.fastq
 
-    write_manifest.sh ${sra_id} ${params.max_reads}
+    01-write_manifest.sh ${sra_id} ${params.max_reads}
     """
 }
