@@ -41,3 +41,15 @@ info <- data.frame(key = c("variable", "type", "id_column", "n_samples", "n_drop
                              if (vtype == "categorical") paste(sort(unique(df$value)), collapse = ";") else ""))
 write.table(info, "variable_info.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
 cat(sprintf("variable=%s type=%s id_column=%s samples=%d\n", variable, vtype, id_col, nrow(df)))
+
+# distribution of the variable of interest. histogram if numeric, bar plot if categorical
+suppressPackageStartupMessages(library(ggplot2))
+p <- ggplot(df, aes(value)) + theme_bw(base_size = 13) +
+  labs(x = variable, title = sprintf("Distribution of %s (n = %d)", variable, nrow(df)))
+if (vtype == "numeric") {
+  p <- p + geom_histogram(bins = min(30, max(5, ceiling(sqrt(nrow(df))))), fill = "#4C78A8", colour = "white") + labs(y = "Samples")
+} else {
+  p <- p + geom_bar(fill = "#4C78A8") + geom_text(stat = "count", aes(label = after_stat(count)), vjust = -0.4) +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.1))) + labs(y = "Samples")
+}
+ggsave("variable_distribution.png", p, width = 7, height = 5, dpi = 150)
