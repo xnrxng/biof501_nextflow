@@ -45,7 +45,7 @@ cat(sprintf("paired=%s trunc_f=%d trunc_r=%d\n", paired, trunc_f, trunc_r))
 
 #qc plots
 
-png("quality_profiles.png", width = 1400, height = 900, res = 130)
+png("quality_profiles_forward.png", width = 1400, height = 900, res = 130)
 print(plotQualityProfile(f1, aggregate = TRUE) +
         ggplot2::ggtitle(if (paired) "Forward reads (all samples)" else "Reads (all samples)"))
 invisible(dev.off())

@@ -63,11 +63,8 @@ if (lvl %in% tolower(all_ranks)) {
 
 # aggregate to the requested taxonomic level
 agg <- rowsum(as.matrix(feat), group = lab)
-first <- !duplicated(lab)
-ttax <- data.frame(taxon = lab[first], tax[first, , drop = FALSE], row.names = NULL)
 
-write.table(data.frame(asv_id = rownames(feat), feat, check.names = FALSE), "features_filtered.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
+write.table(data.frame(asv_id = rownames(feat), tax[rownames(feat), , drop = FALSE], feat, check.names = FALSE), "asv_table_filtered.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
 write.table(data.frame(taxon = rownames(agg), agg, check.names = FALSE), "taxa_counts.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
-write.table(ttax, "taxa_taxonomy.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
 write.table(meta[meta$sample_id %in% colnames(feat), ], "metadata_filtered.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
 write.table(steps, "filter_summary.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
