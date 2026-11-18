@@ -2,5 +2,4 @@ work/
 results/
 .nextflow*
 *.log
-data/data_raw/*.fastq.gz
-data/data_processed/
+data/data_raw/
