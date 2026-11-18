@@ -84,7 +84,7 @@ if (paired) {
   ddR  <- dada(fr, err = errR, multithread = threads, verbose = FALSE)
 }
 png("error_rates.png", width = 1400, height = 1000, res = 130)
-print(plotErrors(errF, nominalQ = TRUE))
+print(plotErrors(errF, nominalQ = TRUE) + ggplot2::theme_classic())
 invisible(dev.off())
 
 # merge and make ASV table
