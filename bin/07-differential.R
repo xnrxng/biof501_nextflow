@@ -9,7 +9,7 @@ split_arg <- function(s, sep = ",") if (is.null(s) || !nzchar(trimws(s))) charac
 counts <- read.delim(opt("counts"), check.names = FALSE, row.names = 1)
 meta   <- read.delim(opt("metadata"), stringsAsFactors = FALSE)
 info   <- read.delim(opt("info"), stringsAsFactors = FALSE)
-alpha_thr <- as.numeric(opt("alpha", 0.1)); min_prev <- as.numeric(opt("min_prev", 0.2))
+alpha_thr <- as.numeric(opt("alpha", 0.1)); lfc_thr <- as.numeric(opt("lfc", 0.5)); min_prev <- as.numeric(opt("min_prev", 0.2))
 binarize  <- opt("binarize", "none")
 vname <- info$value[info$key == "variable"]; vtype <- info$value[info$key == "type"]
 meta <- meta[match(colnames(counts), meta$sample_id), ]
@@ -82,7 +82,7 @@ if (vtype == "numeric" && binarize == "median") {
 }
 if (nzchar(ref) && vtype == "numeric") note("reference ignored", paste("--da_reference =", ref), "the variable is numeric (or median-split)", "reference levels apply to categorical variables only")
 coldata <- cbind(data.frame(x = x, row.names = colnames(counts)), cov_df)
-design  <- as.formula(paste("~", paste(c(colnames(cov_df), "x"), collapse = " + ")))   # covariates first, term of interest last
+design  <- as.formula(paste("~", paste(c(colnames(cov_df), "x"), collapse = " + ")))   
 if (n <= ncol(model.matrix(design, coldata))) stop("Too many model terms (", ncol(model.matrix(design, coldata)), ") for ", n, " samples; use fewer covariates", call. = FALSE)
 
 dds <- DESeqDataSetFromMatrix(round(as.matrix(counts)), coldata, design)
@@ -103,29 +103,47 @@ res <- if (mode == "continuous") get_res(NULL, desc) else {
   do.call(rbind, lapply(lv[-1], function(l) get_res(c("x", l, lv[1]), sprintf("%s vs %s", l, lv[1]))))
 }
 res <- res[order(res$contrast, res$pvalue), c("contrast", "taxon", "baseMean", "log2FoldChange", "lfcSE", "stat", "pvalue", "padj")]
-write.table(res, "da_results.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
-if (!any(res$padj < alpha_thr, na.rm = TRUE))
-  note("no taxa pass FDR", sprintf("%d taxa tested in %d samples, 0 with padj < %g", nrow(counts), n, alpha_thr), "small n gives low power; raw-p hits are exploratory only", "add samples before interpreting individual taxa")
 
-# plots
-cls_levels <- c(sprintf("padj < %g", alpha_thr), "p < 0.05 only", "not significant")
-res$class <- factor(ifelse(!is.na(res$padj) & res$padj < alpha_thr, cls_levels[1], ifelse(!is.na(res$pvalue) & res$pvalue < 0.05, cls_levels[2], cls_levels[3])),
-                    levels = cls_levels)
+sig <- !is.na(res$padj) & res$padj < alpha_thr & abs(res$log2FoldChange) > lfc_thr
+res$regulation <- ifelse(sig & res$log2FoldChange > 0, "up", ifelse(sig, "down", "not significant"))
+write.table(res, "da_results.tsv", sep = "\t", quote = FALSE, row.names = FALSE)
+if (!any(sig))
+  note("no significant taxa", sprintf("%d taxa tested in %d samples, none with padj < %g and |log2FC| > %g", nrow(counts), n, alpha_thr, lfc_thr),
+       "small n gives low power; raw-p hits are exploratory only", "add samples before interpreting individual taxa")
+
+reg_levels <- c("Significant up", "Significant down", "Not significant")
+res$class <- factor(c(up = reg_levels[1], down = reg_levels[2], "not significant" = reg_levels[3])[res$regulation], levels = reg_levels)
+hues <- scales::hue_pal()(2)
+legend_rows <- data.frame(log2FoldChange = NA_real_, pvalue = NA_real_, class = factor(reg_levels, levels = reg_levels))
+reg_cols <- setNames(c(hues[1], hues[2], "grey70"), reg_levels)
 r <- res[!is.na(res$pvalue), ]
 multi <- length(unique(r$contrast)) > 1
 adjust <- if (ncol(cov_df)) sprintf(" (adjusted for %s)", paste(covs, collapse = ", ")) else ""
-v <- ggplot(r, aes(log2FoldChange, -log10(pvalue), colour = class)) + geom_point(size = 2.5, alpha = 0.85) +
-  geom_text(data = do.call(rbind, lapply(split(r, r$contrast), head, 8)), aes(label = taxon), size = 2.8, vjust = -0.8, check_overlap = TRUE, show.legend = FALSE) +
-  geom_vline(xintercept = 0, linetype = 3) + scale_x_continuous(expand = expansion(mult = 0.15)) + labs(x = "log2 fold-change", y = expression(-log[10](p)), colour = NULL,
-                                                     title = sprintf("Differential abundance vs %s%s", vname, adjust)) +
-  theme_classic(base_size = 12) + (if (multi) facet_wrap(~contrast, scales = "free") else labs(subtitle = unique(r$contrast)))
-ggsave("da_volcano.png", v, width = if (multi) 11 else 7.5, height = 5.5, dpi = 150)
+crit <- sprintf("significant: padj < %g and |log2FC| > %g", alpha_thr, lfc_thr)
+
+
+#plots
+lab <- do.call(rbind, lapply(split(r[r$class != reg_levels[3], ], r$contrast[r$class != reg_levels[3]]), head, 15))
+if (!is.null(lab) && nrow(lab)) lab$hj <- ifelse(lab$log2FoldChange > 0, 1.08, -0.08)
+v <- ggplot(r, aes(log2FoldChange, -log10(pvalue), colour = class)) +
+  geom_vline(xintercept = c(-lfc_thr, lfc_thr), linetype = "dashed", colour = "grey50", linewidth = 0.4) +
+  geom_point(size = 2.2, alpha = 0.85) + geom_point(data = legend_rows, na.rm = TRUE) +
+  (if (!is.null(lab) && nrow(lab)) geom_text(data = lab, aes(label = taxon, hjust = hj), size = 2.3, vjust = -0.7, check_overlap = TRUE, show.legend = FALSE)) +
+  scale_colour_manual(values = reg_cols, limits = reg_levels, drop = FALSE) +
+  scale_x_continuous(expand = expansion(mult = 0.12)) + scale_y_continuous(expand = expansion(mult = c(0.03, 0.12))) +
+  labs(x = "log2 fold-change", y = expression(-log[10](p)), colour = NULL,
+       title = sprintf("Differential abundance vs %s%s", vname, adjust), subtitle = paste0(if (!multi) paste0(unique(r$contrast), "; "), crit)) +
+  theme_classic(base_size = 12) + (if (multi) facet_wrap(~contrast, scales = "free"))
+ggsave("da_volcano.png", v, width = if (multi) 15 else 10, height = 7, dpi = 150)
 
 top <- do.call(rbind, lapply(split(r, r$contrast), head, 20))
 top$key <- factor(paste(top$contrast, top$taxon, sep = "___"), levels = rev(paste(top$contrast, top$taxon, sep = "___")))
-b <- ggplot(top, aes(log2FoldChange, key, fill = class)) + geom_col() +
+b <- ggplot(top, aes(log2FoldChange, key, fill = class)) + geom_col() + geom_col(data = do.call(rbind, lapply(split(top, top$contrast), function(d) transform(legend_rows, contrast = d$contrast[1], key = d$key[1]))), na.rm = TRUE) +
+  geom_vline(xintercept = 0) +
+  scale_fill_manual(values = reg_cols, limits = reg_levels, drop = FALSE) +
   scale_y_discrete(labels = function(k) sub("^.*___", "", k)) +
-  labs(x = "log2 fold-change", y = NULL, fill = NULL, title = sprintf("Top taxa by p-value, vs %s%s", vname, adjust)) +
-  theme_classic(base_size = 12) + (if (multi) facet_wrap(~contrast, scales = "free_y") else labs(subtitle = unique(r$contrast)))
-ggsave("da_top_features.png", b, width = if (multi) 12 else 8, height = 6, dpi = 150)
-cat(sprintf("mode=%s samples=%d taxa_tested=%d covariates=%s\n", mode, n, nrow(counts), if (length(covs)) paste(covs, collapse = ",") else "none"))
+  labs(x = "log2 fold-change", y = NULL, fill = NULL, title = sprintf("Top 20 taxa by p-value, vs %s%s", vname, adjust),
+       subtitle = paste0(if (!multi) paste0(unique(r$contrast), "; "), crit)) +
+  theme_classic(base_size = 12) + (if (multi) facet_wrap(~contrast, scales = "free_y"))
+ggsave("da_top_features.png", b, width = if (multi) 13 else 9, height = 6.5, dpi = 150)
+cat(sprintf("mode=%s samples=%d taxa_tested=%d significant=%d covariates=%s\n", mode, n, nrow(counts), sum(sig), if (length(covs)) paste(covs, collapse = ",") else "none"))

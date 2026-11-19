@@ -17,7 +17,7 @@ process DIFFERENTIAL {
     script:
     """
     07-differential.R --counts ${counts} --metadata ${metadata} --info ${info} \\
-        --alpha ${params.da_alpha} --min_prev ${params.da_min_prev} --binarize ${params.da_binarize} \\
+        --alpha ${params.da_alpha} --lfc ${params.da_lfc} --min_prev ${params.da_min_prev} --binarize ${params.da_binarize} \\
         --full_metadata ${full_metadata} --covariates '${params.da_covariates}' \\
         --reference '${params.da_reference}' --covariate_refs '${params.da_covariate_refs}'
     """
