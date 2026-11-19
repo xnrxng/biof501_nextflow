@@ -1,0 +1,7 @@
+key	value
+variable	Cardiometabolic_status
+type	categorical
+id_column	#SampleID
+n_samples	6
+n_dropped_missing	0
+levels	Abnormal;Healthy

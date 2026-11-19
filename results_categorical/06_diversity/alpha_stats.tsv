@@ -1,0 +1,2 @@
+metric	test	comparison	statistic	estimate	p_value	p_adjusted	significance
+shannon	Wilcoxon rank-sum	Abnormal vs Healthy	8	NA	0.105192505120041	NA	ns

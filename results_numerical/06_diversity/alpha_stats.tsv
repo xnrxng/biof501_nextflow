@@ -1,0 +1,2 @@
+metric	test	comparison	statistic	estimate	p_value	p_adjusted	significance
+shannon	Spearman correlation	adiponectin	24	0.314285714285714	0.544093294460641	NA	ns

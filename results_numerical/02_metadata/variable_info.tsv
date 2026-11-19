@@ -1,0 +1,7 @@
+key	value
+variable	adiponectin
+type	numeric
+id_column	#SampleID
+n_samples	6
+n_dropped_missing	0
+levels	

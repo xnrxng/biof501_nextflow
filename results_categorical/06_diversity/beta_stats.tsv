@@ -1,0 +1,2 @@
+distance	test	R2	statistic	p_value	dispersion_test	dispersion_p_value	significance
+Bray-Curtis	PERMANOVA (adonis2)	0.234729458602194	1.22690967914928	0.266666666666667	PERMDISP (betadisper)	0.134722222222222	ns

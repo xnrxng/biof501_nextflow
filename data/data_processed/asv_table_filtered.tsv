@@ -1,0 +1,555 @@
+asv_id	Kingdom	Phylum	Class	Order	Family	Genus	Species	SRR6267384	SRR6267412	SRR6267585	SRR6267616	SRR6267632	SRR6267767
+ASV_0001	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia-Shigella	NA	9	291	850	18	35770	14545
+ASV_0002	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	Prevotella_9 copri	97	382	376	147	44606	320
+ASV_0003	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	NA	17	247	0	204	14895	5
+ASV_0004	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia muciniphila	1380	11545	0	14	11	31
+ASV_0005	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	NA	0	785	2056	4242	0	0
+ASV_0006	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	2473	15	127	2599	18	436
+ASV_0007	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	NA	4294	119	288	0	53	0
+ASV_0008	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	931	130	185	553	268	2139
+ASV_0009	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	NA	71	4	0	8	0	3974
+ASV_0010	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-002	NA	874	1175	1401	215	0	59
+ASV_0011	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelatoclostridiaceae	Catenibacterium	Catenibacterium mitsuokai	181	73	2705	235	260	0
+ASV_0012	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	410	1061	1675	0	0
+ASV_0013	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	NA	0	198	2272	39	0	60
+ASV_0014	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	95	433	0	0	2036
+ASV_0015	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	NA	2060	0	0	0	0	430
+ASV_0016	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Enterorhabdus	NA	957	103	85	1290	44	3
+ASV_0017	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Collinsella	Collinsella aerofaciens	131	408	71	979	258	312
+ASV_0018	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	1214	0	0	0	881	0
+ASV_0019	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	CAG-352	NA	0	28	287	1657	0	27
+ASV_0020	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	NA	NA	NA	0	1942	0	0	0	0
+ASV_0021	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Dorea	Dorea longicatena	120	86	958	184	244	30
+ASV_0022	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Muribaculaceae	NA	NA	0	0	1622	0	0	0
+ASV_0023	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	485	0	908	0	0	0
+ASV_0024	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	1015	0	131	8	0	0
+ASV_0025	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Solobacterium	NA	0	20	0	1078	8	2
+ASV_0026	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	955	26	107	0	0	0
+ASV_0027	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Libanicoccus	NA	0	0	0	1050	0	0
+ASV_0028	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-002	NA	129	104	701	19	19	36
+ASV_0029	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Incertae Sedis	NA	51	0	9	883	0	24
+ASV_0030	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia massiliensis	33	307	451	76	0	78
+ASV_0031	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	30	4	126	760	0	0
+ASV_0032	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	92	0	157	606	0	3
+ASV_0033	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	628	159	32	7	32
+ASV_0034	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	806	0	0
+ASV_0035	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Romboutsia	NA	90	0	30	560	2	119
+ASV_0036	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	0	749	0	0
+ASV_0037	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	0	0	0	748	0
+ASV_0038	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	NA	0	0	0	0	721	0
+ASV_0039	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Erysipelotrichaceae UCG-006	NA	0	0	15	681	0	0
+ASV_0040	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	NA	73	120	155	266	10	60
+ASV_0041	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	309	88	152	107	0	23
+ASV_0042	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Senegalimassilia	Senegalimassilia anaerobia	50	0	59	498	69	0
+ASV_0043	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	NA	0	0	0	0	0	645
+ASV_0044	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	0	0	0	0	622	0
+ASV_0045	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	27	594	0	0	0
+ASV_0046	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Agathobacter	NA	447	0	74	0	0	96
+ASV_0047	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	Roseburia inulinivorans	179	13	0	28	0	397
+ASV_0048	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Megasphaera	NA	526	0	0	0	67	0
+ASV_0049	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia faecis	26	43	409	13	12	52
+ASV_0050	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	38	12	498	0	0	0
+ASV_0051	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	152	267	97	0	0
+ASV_0052	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Coriobacteriales Incertae Sedis	NA	NA	0	10	4	494	0	0
+ASV_0053	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	NA	NA	0	38	0	466	0	0
+ASV_0054	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	NA	282	0	0	3	0	218
+ASV_0055	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	NA	NA	NA	0	0	503	0	0	0
+ASV_0056	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Faecalibacterium	NA	147	26	196	0	59	68
+ASV_0057	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Ruminococcus] torques group	NA	20	40	116	212	55	0
+ASV_0058	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae NK3A20 group	NA	0	0	417	5	0	0
+ASV_0059	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	136	206	77	0	0	0
+ASV_0060	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	214	0	0	45	101	40
+ASV_0061	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	NA	0	179	194	3	0	21
+ASV_0062	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Holdemanella	NA	222	45	62	54	11	0
+ASV_0063	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides vulgatus	82	0	0	0	0	310
+ASV_0064	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Libanicoccus	NA	306	6	76	0	0	0
+ASV_0065	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NK4A214 group	NA	0	146	114	127	0	0
+ASV_0066	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Ruminococcus	Ruminococcus bromii	0	238	0	0	0	145
+ASV_0067	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	0	0	0	0	382	0
+ASV_0068	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	380	0	0
+ASV_0069	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	332	8	39	0	0	0
+ASV_0070	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	0	340	36	0	0
+ASV_0071	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	NA	8	46	245	38	0	24
+ASV_0072	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	219	57	0	83	0	0
+ASV_0073	Bacteria	Firmicutes	Clostridia	NA	NA	NA	NA	11	188	153	0	0	0
+ASV_0074	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	NA	210	0	18	123	0	0
+ASV_0075	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Solobacterium	NA	0	0	0	351	0	0
+ASV_0076	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	0	0	0	350	0	0
+ASV_0077	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Slackia	Slackia isoflavoniconvertens	77	50	149	0	0	72
+ASV_0078	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	192	141	0	0	0
+ASV_0079	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	333	0	0	0
+ASV_0080	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	17	290	13	0	0
+ASV_0081	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-002	NA	0	49	262	0	0	0
+ASV_0082	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	310	0	0
+ASV_0083	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	NA	NA	126	106	0	0	0	64
+ASV_0084	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Dorea	Dorea formicigenerans	15	19	20	172	38	32
+ASV_0085	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	93	193	0	0	0
+ASV_0086	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Intestinibacter	Intestinibacter bartlettii	0	4	88	177	0	10
+ASV_0087	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	227	49	0	0
+ASV_0088	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	NA	NA	0	0	0	272	0	0
+ASV_0089	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	NA	62	20	14	29	95	49
+ASV_0090	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae NK4A136 group	NA	173	13	34	48	0	0
+ASV_0091	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	Coprococcus comes	24	85	104	13	7	28
+ASV_0092	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	36	84	128	12	0	0
+ASV_0093	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	259	0	0	0	0	0
+ASV_0094	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Muribaculaceae	NA	NA	157	93	0	0	8	0
+ASV_0095	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	NA	NA	0	0	0	258	0	0
+ASV_0096	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	NA	0	0	0	0	258	0
+ASV_0097	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NK4A214 group	NA	48	0	0	0	0	209
+ASV_0098	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia obeum	23	71	17	22	0	121
+ASV_0099	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	NA	11	0	229	0	0	6
+ASV_0100	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	75	16	39	109	0	0
+ASV_0101	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	228	0	0	9
+ASV_0102	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	0	107	130	0	0
+ASV_0103	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	235	0	0	0
+ASV_0104	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Succinivibrionaceae	Succinivibrio	NA	0	10	40	11	163	0
+ASV_0105	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	NA	65	0	117	0	0	40
+ASV_0106	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	0	0	0	0	0	222
+ASV_0108	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	NA	NA	0	0	0	40	178	0
+ASV_0109	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	24	46	74	0	51	22
+ASV_0110	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	217	0	0	0
+ASV_0111	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	59	0	0	151	0	0
+ASV_0112	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-002	NA	0	40	56	114	0	0
+ASV_0113	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	51	80	77	0	0	0
+ASV_0114	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelatoclostridiaceae	Catenibacterium	NA	0	208	0	0	0	0
+ASV_0115	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	NA	0	205	0	0	0	0
+ASV_0116	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Fusicatenibacter	Fusicatenibacter saccharivorans	96	12	14	52	0	26
+ASV_0117	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	NA	0	178	0	0	20	0
+ASV_0118	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	7	50	136	0	0	0
+ASV_0119	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Howardella	Howardella ureilytica	54	4	35	98	0	0
+ASV_0120	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	190	0	0	0	0	0
+ASV_0121	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	186	0	0	0
+ASV_0122	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	183	0	0	0
+ASV_0123	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	NA	17	0	0	11	28	110
+ASV_0124	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	166	0	0	0	0
+ASV_0125	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	166	0	0	0	0
+ASV_0127	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Holdemanella	Holdemanella biformis	98	0	61	0	0	0
+ASV_0128	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	157	0	0	0	0	0
+ASV_0129	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	NA	NA	0	156	0	0	0	0
+ASV_0130	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	153	0	0	0
+ASV_0131	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	NA	0	152	0	0	0	0
+ASV_0132	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	NA	0	0	53	9	90	0
+ASV_0133	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	150	0	0
+ASV_0134	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	5	36	108	0	0	0
+ASV_0135	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NK4A214 group	NA	0	149	0	0	0	0
+ASV_0136	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] eligens group	NA	10	0	0	101	0	37
+ASV_0137	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	0	144	0	0
+ASV_0138	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-002	NA	8	48	75	8	0	0
+ASV_0139	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	9	12	59	57	0	0
+ASV_0140	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	137	0	0	0
+ASV_0141	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	NA	NA	66	16	0	54	0	0
+ASV_0142	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	NA	0	0	135	0	0	0
+ASV_0143	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	NA	NA	0	0	115	10	10	0
+ASV_0144	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	NA	0	0	0	0	35	99
+ASV_0145	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Terrisporobacter	Terrisporobacter mayombei	0	0	63	70	0	0
+ASV_0146	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae NK3A20 group	NA	0	0	131	0	0	0
+ASV_0147	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides massiliensis	0	0	0	0	7	123
+ASV_0148	Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	Peptococcus	NA	0	0	126	0	0	0
+ASV_0149	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	125	0	0	0	0
+ASV_0150	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	NA	0	0	125	0	0	0
+ASV_0151	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	0	125	0	0
+ASV_0152	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	123	0	0	0	0	0
+ASV_0153	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	NA	0	0	0	0	0	123
+ASV_0154	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Megasphaera	NA	119	0	0	0	0	0
+ASV_0155	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Anaerostipes	Anaerostipes hadrus	0	0	0	89	17	12
+ASV_0156	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides merdae	14	9	4	0	30	58
+ASV_0157	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	0	114	0	0
+ASV_0158	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes putredinis	79	0	0	0	5	28
+ASV_0159	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	UBA1819	NA	10	0	0	8	41	48
+ASV_0160	Bacteria	Cyanobacteria	Vampirivibrionia	Gastranaerophilales	NA	NA	NA	0	0	0	107	0	0
+ASV_0161	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	106	0	0	0
+ASV_0162	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	56	0	0	46	0	0
+ASV_0163	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	102	0	0	0
+ASV_0164	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides caccae	58	21	0	0	0	21
+ASV_0165	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	56	35	0	0	0	5
+ASV_0166	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	NA	0	0	0	0	0	96
+ASV_0167	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	0	95	0	0
+ASV_0168	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	NA	8	0	0	0	0	85
+ASV_0169	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	NA	0	93	0	0	0	0
+ASV_0170	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	NA	0	0	93	0	0	0
+ASV_0171	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	93	0	0
+ASV_0172	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Turicibacter	Turicibacter sanguinis	0	0	0	0	0	91
+ASV_0173	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Ruminococcus	NA	0	0	90	0	0	0
+ASV_0174	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	NA	0	0	0	87	0	0
+ASV_0175	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Libanicoccus	Libanicoccus massiliensis	0	0	74	0	12	0
+ASV_0176	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	50	35	0	0	0
+ASV_0177	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-002	NA	0	0	49	0	0	36
+ASV_0178	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	NA	9	10	34	25	5	0
+ASV_0179	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	Coprococcus catus	0	0	37	30	6	9
+ASV_0180	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	0	0	0	82	0
+ASV_0181	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	80	0	0	0
+ASV_0182	Bacteria	Firmicutes	Clostridia	Oscillospirales	Butyricicoccaceae	UCG-009	NA	0	0	79	0	0	0
+ASV_0183	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	79	0	0
+ASV_0184	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	NA	0	0	78	0	0	0
+ASV_0185	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Ruminococcus	Ruminococcus bicirculans	0	19	12	0	0	46
+ASV_0186	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	NA	0	0	41	0	0	36
+ASV_0187	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	77	0	0
+ASV_0188	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	12	22	19	0	0	23
+ASV_0189	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	NA	0	76	0	0	0	0
+ASV_0190	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospira	Lachnospira pectinoschiza	0	0	0	11	43	22
+ASV_0191	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	NA	2	14	0	53	6	0
+ASV_0192	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	75	0	0	0	0
+ASV_0193	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	0	24	0	0	12	38
+ASV_0195	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	NA	0	0	0	0	0	71
+ASV_0196	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	Monoglobus pectinilyticus	0	0	0	0	0	71
+ASV_0197	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NK4A214 group	NA	0	0	0	70	0	0
+ASV_0198	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-002	NA	0	68	0	0	0	0
+ASV_0199	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	NA	NA	NA	0	0	68	0	0	0
+ASV_0200	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	Rothia mucilaginosa	0	0	0	0	0	68
+ASV_0201	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	NA	0	0	0	7	55	4
+ASV_0202	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Eisenbergiella	Eisenbergiella tayi	0	0	0	0	0	66
+ASV_0203	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	NA	0	0	65	0	0	0
+ASV_0204	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	11	0	10	42	0	0
+ASV_0205	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	NA	10	0	17	22	0	14
+ASV_0206	Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	Peptococcus	NA	0	0	0	62	0	0
+ASV_0207	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-003	NA	10	26	16	0	0	9
+ASV_0208	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	NA	0	0	37	0	11	13
+ASV_0209	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	0	60	0	0
+ASV_0210	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Ruminococcus] torques group	NA	37	0	0	0	0	22
+ASV_0211	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	58	0	0	0	0
+ASV_0212	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	57	0	0	0	0	0
+ASV_0213	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	NA	0	0	0	57	0	0
+ASV_0214	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces odontolyticus	25	4	0	12	0	15
+ASV_0215	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	11	45	0	0
+ASV_0216	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Paraprevotella	Paraprevotella clara	55	0	0	0	0	0
+ASV_0217	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotellaceae UCG-003	NA	0	0	0	55	0	0
+ASV_0218	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	28	26	0	0
+ASV_0219	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NK4A214 group	NA	24	0	24	5	0	0
+ASV_0220	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] xylanophilum group	NA	13	0	0	39	0	0
+ASV_0221	Bacteria	Cyanobacteria	Vampirivibrionia	Gastranaerophilales	NA	NA	NA	0	52	0	0	0	0
+ASV_0222	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Pseudocitrobacter	NA	0	0	0	0	52	0
+ASV_0223	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides uniformis	27	0	0	0	0	23
+ASV_0224	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	NA	0	0	50	0	0	0
+ASV_0225	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Incertae Sedis	NA	0	0	0	0	0	50
+ASV_0226	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	45	0	0	0	4
+ASV_0227	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	Roseburia hominis	0	0	0	0	6	43
+ASV_0228	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	NA	NA	0	48	0	0	0	0
+ASV_0229	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	NA	NA	0	0	31	17	0	0
+ASV_0230	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	Coprococcus eutactus	0	0	33	14	0	0
+ASV_0231	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	NA	NA	0	0	0	0	0	47
+ASV_0232	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	46	0	0	0	0	0
+ASV_0233	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	NA	17	0	0	0	0	29
+ASV_0234	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	NA	13	11	22	0	0	0
+ASV_0235	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Ruminococcus] torques group	NA	10	0	0	0	0	36
+ASV_0236	Bacteria	Firmicutes	Clostridia	Lachnospirales	Defluviitaleaceae	Defluviitaleaceae UCG-011	NA	5	0	0	41	0	0
+ASV_0237	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	0	0	0	0	45	0
+ASV_0238	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	0	0	0	0	45
+ASV_0239	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	44	0	0	0	0	0
+ASV_0240	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	NA	0	44	0	0	0	0
+ASV_0241	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	0	15	29	0	0	0
+ASV_0242	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	0	44	0	0	0
+ASV_0243	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotellaceae NK3B31 group	NA	0	0	43	0	0	0
+ASV_0244	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Aeromonadaceae	Aeromonas	NA	0	0	0	0	43	0
+ASV_0245	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	42	0	0	0	0
+ASV_0246	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Syntrophococcus	NA	0	0	0	42	0	0
+ASV_0247	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Ruminococcus	Ruminococcus champanellensis	0	0	41	0	0	0
+ASV_0248	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	41	0	0	0
+ASV_0249	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	0	41	0	0
+ASV_0250	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Acidaminococcus	Acidaminococcus fermentans	0	0	0	0	41	0
+ASV_0251	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Mitsuokella	NA	0	0	0	0	41	0
+ASV_0252	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	NA	0	0	0	0	0	41
+ASV_0253	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Phascolarctobacterium	Phascolarctobacterium succinatutens	0	40	0	0	0	0
+ASV_0254	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella stercoricanis	0	0	0	0	0	40
+ASV_0255	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Marvinbryantia	NA	0	25	14	0	0	0
+ASV_0256	Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	NA	NA	0	13	19	7	0	0
+ASV_0257	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	0	39	0	0	0
+ASV_0258	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	39	0	0	0
+ASV_0259	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	0	39	0	0
+ASV_0260	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	11	27	0	0	0	0
+ASV_0261	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Holdemanella	NA	37	0	0	0	0	0
+ASV_0262	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] ruminantium group	NA	17	0	20	0	0	0
+ASV_0263	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	NA	0	37	0	0	0	0
+ASV_0264	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae AC2044 group	NA	0	26	11	0	0	0
+ASV_0265	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	Roseburia intestinalis	36	0	0	0	0	0
+ASV_0266	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	NA	0	0	36	0	0	0
+ASV_0267	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	NA	0	0	0	0	36	0
+ASV_0268	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	NA	0	0	0	0	0	36
+ASV_0269	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	NA	NA	0	0	0	0	0	36
+ASV_0270	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	35	0	0	0	0
+ASV_0271	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	0	35	0	0
+ASV_0272	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	35	0	0
+ASV_0273	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	0	0	0	35	0	0
+ASV_0274	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Incertae Sedis	NA	0	0	0	0	35	0
+ASV_0275	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes massiliensis	0	0	0	0	0	35
+ASV_0276	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Anaerosporobacter	NA	0	0	34	0	0	0
+ASV_0277	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	NA	NA	0	0	34	0	0	0
+ASV_0278	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NK4A214 group	NA	0	0	26	8	0	0
+ASV_0279	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium bifidum	0	0	0	0	34	0
+ASV_0280	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	NA	0	0	33	0	0	0
+ASV_0281	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae NK4A136 group	Lachnospiraceae NK4A136 group bacterium	0	0	0	0	0	33
+ASV_0282	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	32	0	0	0	0	0
+ASV_0283	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	25	0	6	0	0	0
+ASV_0284	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	31	0	0	0	0
+ASV_0285	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	0	31	0	0
+ASV_0286	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	NA	0	0	0	0	31	0
+ASV_0287	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	NA	0	0	0	30	0	0
+ASV_0288	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	29	0	0	0	0
+ASV_0289	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	29	0	0	0	0
+ASV_0290	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] hallii group	NA	0	0	20	9	0	0
+ASV_0291	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	NA	0	0	0	29	0	0
+ASV_0292	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	NA	0	0	0	0	29	0
+ASV_0293	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Slackia	Slackia piriformis	0	0	0	0	15	14
+ASV_0294	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes shahii	28	0	0	0	0	0
+ASV_0295	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	27	0	0	0	0	0
+ASV_0296	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Enterorhabdus	NA	0	0	27	0	0	0
+ASV_0297	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae UCG-007	NA	0	0	27	0	0	0
+ASV_0298	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Oribacterium	NA	0	0	26	0	0	0
+ASV_0299	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter	NA	0	0	7	0	19	0
+ASV_0300	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	NA	25	0	0	0	0	0
+ASV_0301	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	NA	NA	18	0	7	0	0	0
+ASV_0302	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella buccalis	0	17	8	0	0	0
+ASV_0303	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Agathobacter	NA	0	10	0	15	0	0
+ASV_0304	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	NA	0	0	25	0	0	0
+ASV_0305	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	NA	0	0	25	0	0	0
+ASV_0306	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	NA	6	0	0	0	0	18
+ASV_0307	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	24	0	0	0	0
+ASV_0308	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	DTU089	NA	0	0	0	0	0	24
+ASV_0309	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	CAG-56	NA	23	0	0	0	0	0
+ASV_0310	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides eggerthii	20	0	0	0	3	0
+ASV_0311	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] ventriosum group	NA	3	0	0	0	0	20
+ASV_0312	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	23	0	0	0	0
+ASV_0313	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Megasphaera	Megasphaera hexanoica	0	0	0	0	23	0
+ASV_0314	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio piger	0	0	0	0	23	0
+ASV_0315	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Shuttleworthia	NA	0	0	0	0	0	23
+ASV_0316	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	0	0	22	0	0	0
+ASV_0317	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	Flavonifractor	Flavonifractor plautii	0	0	0	0	7	15
+ASV_0318	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Ruminococcus] gnavus group	NA	0	0	0	0	0	22
+ASV_0319	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	Dialister invisus	0	0	0	0	0	22
+ASV_0320	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae NK4A136 group	NA	21	0	0	0	0	0
+ASV_0321	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	NA	21	0	0	0	0	0
+ASV_0322	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	21	0	0	0
+ASV_0323	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	21	0	0	0
+ASV_0324	Bacteria	Firmicutes	Clostridia	Oscillospirales	Butyricicoccaceae	Butyricicoccus	Butyricicoccus faecihominis	20	0	0	0	0	0
+ASV_0325	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	20	0	0	0	0
+ASV_0326	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	20	0	0	0	0
+ASV_0327	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	17	3	0	0	0
+ASV_0328	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	Oscillibacter	NA	0	0	20	0	0	0
+ASV_0329	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	NA	0	0	9	11	0	0
+ASV_0330	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae FCS020 group	Lachnospiraceae FCS020 group bacterium	0	0	8	12	0	0
+ASV_0331	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Bilophila	Bilophila wadsworthia	0	0	0	0	0	20
+ASV_0332	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	NA	0	19	0	0	0	0
+ASV_0333	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	NA	0	15	0	0	0	4
+ASV_0334	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	19	0	0	0
+ASV_0335	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	19	0	0	0
+ASV_0336	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	0	0	0	0	19	0
+ASV_0337	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	NA	0	0	0	0	19	0
+ASV_0338	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Ruminococcus	NA	18	0	0	0	0	0
+ASV_0339	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	7	11	0	0	0	0
+ASV_0340	Bacteria	Firmicutes	Clostridia	Clostridia vadinBB60 group	NA	NA	NA	0	0	18	0	0	0
+ASV_0341	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] hallii group	NA	0	0	18	0	0	0
+ASV_0342	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	0	0	18	0	0
+ASV_0343	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Turicibacter	Turicibacter sanguinis	0	0	0	18	0	0
+ASV_0344	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Ruminococcus	Ruminococcus callidus	0	0	0	0	2	16
+ASV_0345	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Burkholderia-Caballeronia-Paraburkholderia	NA	0	7	0	2	8	0
+ASV_0346	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	17	0	0	0
+ASV_0347	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Marvinbryantia	NA	0	0	8	9	0	0
+ASV_0348	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	NA	0	0	0	17	0	0
+ASV_0349	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Ruminococcus] gauvreauii group	NA	0	0	0	0	17	0
+ASV_0350	Bacteria	Firmicutes	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	NA	16	0	0	0	0	0
+ASV_0351	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	NA	16	0	0	0	0	0
+ASV_0352	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Fournierella	NA	7	0	0	0	0	9
+ASV_0353	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] xylanophilum group	NA	0	16	0	0	0	0
+ASV_0354	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Barnesiellaceae	Barnesiella	NA	0	16	0	0	0	0
+ASV_0355	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NK4A214 group	NA	0	0	16	0	0	0
+ASV_0356	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	16	0	0	0
+ASV_0357	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Ruminococcus	NA	0	0	0	16	0	0
+ASV_0358	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	5	0	10	0	0	0
+ASV_0359	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NA	NA	0	0	15	0	0	0
+ASV_0360	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	Intestinimonas	NA	0	0	15	0	0	0
+ASV_0361	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	15	0	0	0
+ASV_0362	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	NA	NA	0	0	9	6	0	0
+ASV_0363	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Mogibacterium	NA	0	0	0	15	0	0
+ASV_0364	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Scardovia	Scardovia wiggsiae	0	0	0	15	0	0
+ASV_0365	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotellaceae UCG-004	NA	0	0	0	15	0	0
+ASV_0366	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	0	0	15	0	0
+ASV_0367	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	HT002	NA	0	0	0	0	0	15
+ASV_0368	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Incertae Sedis	NA	0	0	0	0	0	15
+ASV_0369	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides ovatus	14	0	0	0	0	0
+ASV_0370	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelatoclostridiaceae	Erysipelotrichaceae UCG-003	Erysipelotrichaceae UCG-003 bacterium	8	0	0	0	6	0
+ASV_0371	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	NK4A214 group	NA	0	14	0	0	0	0
+ASV_0372	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Faecalibacterium	NA	0	14	0	0	0	0
+ASV_0373	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	14	0	0	0	0
+ASV_0374	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Anaerostipes	NA	0	14	0	0	0	0
+ASV_0375	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	Flavonifractor	NA	0	0	14	0	0	0
+ASV_0376	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	0	4	10	0	0
+ASV_0377	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	NA	0	0	0	0	14	0
+ASV_0378	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	0	0	8	6
+ASV_0379	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	CHKCI002	NA	0	0	0	0	0	14
+ASV_0380	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	0	0	0	0	0	14
+ASV_0381	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	NA	0	0	0	0	0	14
+ASV_0382	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Libanicoccus	NA	0	13	0	0	0	0
+ASV_0383	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	NA	0	0	13	0	0	0
+ASV_0384	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-002	NA	0	0	13	0	0	0
+ASV_0385	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae ND3007 group	NA	0	0	6	0	0	7
+ASV_0386	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella_7 melaninogenica	0	0	0	0	13	0
+ASV_0387	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lacticaseibacillus	NA	0	0	0	0	0	13
+ASV_0388	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	12	0	0	0	0	0
+ASV_0389	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] hallii group	NA	0	12	0	0	0	0
+ASV_0390	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	4	0	0	0	8
+ASV_0391	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	0	0	12	0	0	0
+ASV_0392	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	12	0	0	0
+ASV_0393	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	12	0	0	0
+ASV_0394	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	12	0	0	0
+ASV_0395	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Incertae Sedis	NA	0	0	7	5	0	0
+ASV_0396	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] xylanophilum group	NA	0	0	0	12	0	0
+ASV_0397	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter concisus	0	0	0	0	12	0
+ASV_0398	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Phascolarctobacterium	Phascolarctobacterium faecium	0	0	0	0	0	12
+ASV_0399	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] hallii group	NA	0	0	0	0	0	12
+ASV_0400	Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	NA	NA	11	0	0	0	0	0
+ASV_0401	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_9	NA	0	11	0	0	0	0
+ASV_0402	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae UCG-001	NA	0	0	11	0	0	0
+ASV_0403	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	11	0	0	0
+ASV_0404	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	NA	0	0	11	0	0	0
+ASV_0405	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella_7 histicola	0	0	0	0	0	11
+ASV_0406	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	0	0	0	0	0	11
+ASV_0407	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia muciniphila	10	0	0	0	0	0
+ASV_0408	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	4	0	6	0	0	0
+ASV_0409	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Parvimonas	Parvimonas micra	2	0	0	0	0	8
+ASV_0410	Bacteria	Cyanobacteria	Vampirivibrionia	Gastranaerophilales	NA	NA	NA	0	10	0	0	0	0
+ASV_0411	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Angelakisella	NA	0	10	0	0	0	0
+ASV_0412	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	NA	NA	0	10	0	0	0	0
+ASV_0413	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	0	10	0	0	0
+ASV_0414	Bacteria	Cyanobacteria	Vampirivibrionia	Gastranaerophilales	NA	NA	NA	0	0	10	0	0	0
+ASV_0415	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	Atopobium rimae	0	0	0	10	0	0
+ASV_0416	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	0	0	0	10	0	0
+ASV_0417	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	NA	NA	0	0	0	0	10	0
+ASV_0418	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Paraprevotella	NA	0	0	0	0	10	0
+ASV_0419	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	0	0	0	10
+ASV_0420	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Alloscardovia	Alloscardovia omnicolens	0	0	0	0	0	10
+ASV_0421	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	Clostridium sensu stricto 1 paraputrificum	0	0	0	0	0	10
+ASV_0422	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	9	0	0	0	0	0
+ASV_0423	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	4	0	5	0	0	0
+ASV_0424	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	9	0	0	0	0
+ASV_0425	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	9	0	0	0	0
+ASV_0426	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Paludicola	NA	0	0	9	0	0	0
+ASV_0427	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	0	0	9	0	0	0
+ASV_0428	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	0	9	0	0
+ASV_0429	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	0	9	0	0
+ASV_0430	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae UCG-004	NA	0	0	0	9	0	0
+ASV_0431	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Tuzzerella	NA	0	0	0	0	0	9
+ASV_0432	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Barnesiellaceae	Barnesiella	NA	8	0	0	0	0	0
+ASV_0433	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	NA	8	0	0	0	0	0
+ASV_0434	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter ureolyticus	0	5	0	0	3	0
+ASV_0435	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	8	0	0	0
+ASV_0436	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	NA	NA	0	0	0	8	0	0
+ASV_0437	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Dorea	NA	0	0	0	8	0	0
+ASV_0438	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	0	8	0	0
+ASV_0439	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-003	NA	0	0	0	8	0	0
+ASV_0440	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] brachy group	NA	0	0	0	8	0	0
+ASV_0441	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	NA	0	0	0	0	8	0
+ASV_0442	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Leuconostoc	Leuconostoc carnosum	0	0	0	0	0	8
+ASV_0443	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae UCG-001	NA	7	0	0	0	0	0
+ASV_0444	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	7	0	0	0	0	0
+ASV_0445	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	[Eubacterium] siraeum group	NA	7	0	0	0	0	0
+ASV_0446	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae NK4A136 group	NA	7	0	0	0	0	0
+ASV_0447	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Marinifilaceae	Sanguibacteroides	NA	0	7	0	0	0	0
+ASV_0448	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	Oscillibacter	NA	0	7	0	0	0	0
+ASV_0449	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	[Eubacterium] siraeum group	NA	0	7	0	0	0	0
+ASV_0450	Bacteria	Cyanobacteria	Vampirivibrionia	Gastranaerophilales	NA	NA	NA	0	7	0	0	0	0
+ASV_0451	Bacteria	Firmicutes	Clostridia	Clostridia vadinBB60 group	NA	NA	NA	0	0	7	0	0	0
+ASV_0452	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	7	0	0	0
+ASV_0453	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	NA	0	0	0	7	0	0
+ASV_0454	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Helicobacteraceae	Helicobacter	Helicobacter pylori	0	0	0	0	7	0
+ASV_0455	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	NA	0	0	0	0	7	0
+ASV_0456	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	0	0	7	0
+ASV_0457	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenella	NA	0	0	0	0	0	7
+ASV_0458	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	0	0	0	7
+ASV_0459	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	0	0	0	0	0	7
+ASV_0460	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	NA	NA	6	0	0	0	0	0
+ASV_0461	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Marinifilaceae	Odoribacter	Odoribacter splanchnicus	6	0	0	0	0	0
+ASV_0462	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Ruminococcus	NA	0	6	0	0	0	0
+ASV_0463	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	NA	0	0	6	0	0	0
+ASV_0464	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	[Eubacterium] ventriosum group	NA	0	0	6	0	0	0
+ASV_0465	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotellaceae UCG-001	NA	0	0	6	0	0	0
+ASV_0466	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	6	0	0	0
+ASV_0467	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Catabacter	NA	0	0	6	0	0	0
+ASV_0468	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	NA	0	0	6	0	0	0
+ASV_0469	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	0	6	0	0
+ASV_0470	Bacteria	Firmicutes	Clostridia	Clostridia vadinBB60 group	NA	NA	NA	0	0	0	6	0	0
+ASV_0471	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	NA	0	0	0	6	0	0
+ASV_0472	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Parvimonas	NA	0	0	0	0	6	0
+ASV_0473	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII UCG-001	NA	0	0	0	0	0	6
+ASV_0474	Bacteria	Firmicutes	Bacilli	RF39	NA	NA	NA	5	0	0	0	0	0
+ASV_0475	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	NA	5	0	0	0	0	0
+ASV_0476	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Allisonella	Allisonella histaminiformans	5	0	0	0	0	0
+ASV_0477	Bacteria	Firmicutes	Bacilli	Staphylococcales	Gemellaceae	Gemella	NA	3	0	0	0	0	2
+ASV_0478	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Incertae Sedis	NA	0	5	0	0	0	0
+ASV_0479	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	NA	NA	NA	0	5	0	0	0	0
+ASV_0480	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	5	0	0	0	0
+ASV_0481	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Oxalobacteraceae	Oxalobacter	Oxalobacter formigenes	0	0	5	0	0	0
+ASV_0482	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	NA	NA	0	0	5	0	0	0
+ASV_0483	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	5	0	0	0
+ASV_0484	Bacteria	Firmicutes	Bacilli	Staphylococcales	Staphylococcaceae	Staphylococcus	NA	0	0	5	0	0	0
+ASV_0485	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	0	5	0	0
+ASV_0486	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	0	5	0	0
+ASV_0487	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	NA	0	0	0	0	5	0
+ASV_0488	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas aeruginosa	0	0	0	0	5	0
+ASV_0489	Bacteria	Firmicutes	Bacilli	Staphylococcales	Gemellaceae	Gemella	NA	0	0	0	0	5	0
+ASV_0490	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	NA	0	0	0	0	5	0
+ASV_0491	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	0	0	0	5
+ASV_0492	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Gordonibacter	Gordonibacter massiliensis	0	0	0	0	0	5
+ASV_0493	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	NA	0	0	0	0	0	5
+ASV_0494	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Barnesiellaceae	Barnesiella	NA	0	0	0	0	0	5
+ASV_0495	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes obesi	0	0	0	0	0	5
+ASV_0496	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Angelakisella	NA	4	0	0	0	0	0
+ASV_0497	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	4	0	0	0	0	0
+ASV_0498	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	4	0	0	0	0	0
+ASV_0499	Bacteria	Firmicutes	Clostridia	Clostridia vadinBB60 group	NA	NA	NA	4	0	0	0	0	0
+ASV_0500	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	4	0	0	0	0	0
+ASV_0501	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Incertae Sedis	NA	0	4	0	0	0	0
+ASV_0502	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	4	0	0	0
+ASV_0503	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	NA	0	0	4	0	0	0
+ASV_0504	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	0	4	0	0
+ASV_0505	Bacteria	Firmicutes	Clostridia	NA	NA	NA	NA	0	0	0	4	0	0
+ASV_0506	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	0	4	0	0
+ASV_0507	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	UCG-005	NA	0	0	0	4	0	0
+ASV_0508	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	0	4	0	0
+ASV_0509	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	NA	0	0	0	0	4	0
+ASV_0510	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Aquamonas	NA	0	0	0	0	4	0
+ASV_0511	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	NA	NA	0	0	0	0	4	0
+ASV_0512	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	0	0	0	4
+ASV_0513	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Angelakisella	NA	0	0	0	0	0	4
+ASV_0514	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	0	0	0	4
+ASV_0515	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	Lachnoclostridium edouardi	0	0	0	0	0	4
+ASV_0516	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	0	0	0	4
+ASV_0517	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	0	0	0	4
+ASV_0518	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Subdoligranulum	NA	3	0	0	0	0	0
+ASV_0519	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Mogibacterium	NA	3	0	0	0	0	0
+ASV_0520	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	3	0	0	0	0	0
+ASV_0521	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenella	NA	3	0	0	0	0	0
+ASV_0522	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Romboutsia	NA	0	3	0	0	0	0
+ASV_0523	Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	Peptococcus	NA	0	0	3	0	0	0
+ASV_0524	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	NA	0	0	3	0	0	0
+ASV_0525	Bacteria	Verrucomicrobiota	Lentisphaeria	Victivallales	vadinBE97	NA	NA	0	0	3	0	0	0
+ASV_0526	Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	NA	NA	0	0	3	0	0	0
+ASV_0527	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Bilophila	Bilophila wadsworthia	0	0	3	0	0	0
+ASV_0528	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	Colidextribacter	NA	0	0	0	3	0	0
+ASV_0529	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Peptoniphilus	NA	0	0	0	3	0	0
+ASV_0530	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	NA	0	0	0	3	0	0
+ASV_0531	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospiraceae NK4A136 group	NA	0	0	0	0	3	0
+ASV_0532	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	NA	NA	0	0	0	0	3	0
+ASV_0533	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	0	0	0	0	0	3
+ASV_0534	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Coriobacteriales Incertae Sedis	NA	NA	0	0	0	0	0	3
+ASV_0535	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	0	0	0	3
+ASV_0536	Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	NA	NA	0	0	0	0	0	3
+ASV_0537	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Megasphaera	NA	2	0	0	0	0	0
+ASV_0538	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	NA	2	0	0	0	0	0
+ASV_0539	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	NA	2	0	0	0	0	0
+ASV_0540	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanosphaera	NA	0	0	2	0	0	0
+ASV_0541	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	NA	0	0	2	0	0	0
+ASV_0542	Bacteria	Firmicutes	Clostridia	Lachnospirales	NA	NA	NA	0	0	0	2	0	0
+ASV_0543	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	NA	0	0	0	2	0	0
+ASV_0544	Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	NA	0	0	0	2	0	0
+ASV_0545	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Coriobacteriales Incertae Sedis	Raoultibacter	Raoultibacter massiliensis	0	0	0	2	0	0
+ASV_0546	Bacteria	Verrucomicrobiota	Kiritimatiellae	WCHB1-41	NA	NA	NA	0	0	0	2	0	0
+ASV_0547	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	NA	0	0	0	0	2	0
+ASV_0548	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	NA	NA	NA	0	0	0	0	2	0
+ASV_0549	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Sutterellaceae	Parasutterella	Parasutterella excrementihominis	0	0	0	0	2	0
+ASV_0550	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	0	0	0	2
+ASV_0551	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	0	0	0	2
+ASV_0552	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	NA	NA	0	0	0	0	0	2
+ASV_0553	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Epulopiscium	NA	0	0	0	0	0	2
+ASV_0554	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	NA	0	0	0	0	0	2
+ASV_0555	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoanaerobaculum	NA	0	0	0	0	0	2
+ASV_0556	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella nanceiensis	0	0	0	0	0	2
+ASV_0557	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	NA	0	0	0	0	0	2
