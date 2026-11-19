@@ -122,6 +122,7 @@ if (mode == "plot") {
 suppressPackageStartupMessages({ library(dada2); library(Biostrings) })
 seqs <- readDNAStringSet(opt("seqs"))
 if (!length(seqs)) stop("No sequences in ", opt("seqs"), call. = FALSE)
+set.seed(as.integer(opt("seed", 42)))                           
 tax  <- assignTaxonomy(as.character(seqs), opt("db"), multithread = as.integer(opt("threads", 1)),
                        minBoot = as.integer(opt("min_boot", 50)), tryRC = TRUE, verbose = FALSE)
 
