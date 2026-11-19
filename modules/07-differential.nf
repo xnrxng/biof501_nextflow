@@ -1,7 +1,6 @@
 process DIFFERENTIAL {
     label 'process_low'
     container 'quay.io/biocontainers/bioconductor-deseq2:1.46.0--r44he5774e6_1'
-    conda 'bioconda::bioconductor-deseq2=1.46.0'
     publishDir "${params.outdir}/07_differential_abundance", mode: 'copy'
 
     input:

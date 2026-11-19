@@ -1,7 +1,6 @@
 process DADA2 {
     label 'process_high'
     container 'quay.io/biocontainers/bioconductor-dada2:1.34.0--r44he5774e6_2'
-    conda 'bioconda::bioconductor-dada2=1.34.0'
     publishDir "${params.procdir}", mode: 'copy', pattern: '{asv_table.tsv,asv_seqs.fasta}'
     publishDir "${params.outdir}/03_dada2_multiqc", mode: 'copy', pattern: '{*.png,read_tracking.tsv}'
 
@@ -26,7 +25,6 @@ process FASTQC {
     tag "$sra_id"
     label 'process_low'
     container 'quay.io/biocontainers/fastqc:0.12.1--hdfd78af_0'
-    conda 'bioconda::fastqc=0.12.1'
 
     input:
     tuple val(sra_id), path(reads)
@@ -43,7 +41,6 @@ process FASTQC {
 process MULTIQC {
     label 'process_low'
     container 'quay.io/biocontainers/multiqc:1.25.1--pyhdfd78af_0'
-    conda 'bioconda::multiqc=1.25.1'
     publishDir "${params.outdir}/03_dada2_multiqc/multiqc", mode: 'copy'
 
     input:

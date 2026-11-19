@@ -2,7 +2,6 @@ process FETCH_SRA {
     tag "$sra_id"
     label 'sra_download'
     container 'quay.io/biocontainers/sra-tools:3.1.1--h4304569_2'
-    conda 'bioconda::sra-tools=3.1.1'
     publishDir "${params.rawdir}", mode: 'copy'
 
     input:

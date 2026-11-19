@@ -1,7 +1,6 @@
 process PREP_METADATA {
     label 'process_low'
     container 'quay.io/biocontainers/bioconductor-phyloseq:1.50.0--r44hdfd78af_0'
-    conda 'bioconda::bioconductor-phyloseq=1.50.0'
     publishDir "${params.outdir}/02_metadata", mode: 'copy', pattern: '*.tsv'
     publishDir "${params.outdir}/01_prelim_eda", mode: 'copy', pattern: '*.png'
 
