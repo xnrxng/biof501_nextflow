@@ -11,7 +11,7 @@ feat <- feat[, colnames(feat) %in% meta$sample_id, drop = FALSE]
 vname <- info$value[info$key == "variable"]; vtype <- info$value[info$key == "type"]
 set.seed(as.integer(opt("seed", 42)))
 meta <- meta[match(colnames(feat), meta$sample_id), ]
-mat <- t(as.matrix(feat))                                       # samples x ASVs
+mat <- t(as.matrix(feat))                        
 
 # rarefaction depth: user-chosen (--depth > 0) or, by default, the smallest sample; samples below a chosen depth are dropped
 req   <- as.integer(opt("depth", 0))

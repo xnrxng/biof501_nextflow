@@ -57,7 +57,7 @@ workflow {
     DIVERSITY(FILTER_FEATURES.out.features, FILTER_FEATURES.out.metadata, PREP_METADATA.out.info)
     DIFFERENTIAL(FILTER_FEATURES.out.taxa_counts, FILTER_FEATURES.out.metadata, PREP_METADATA.out.info, file(params.metadata, checkIfExists: true))
 
-    def keys = ['variable', 'variable_type', 'max_reads', 'trunc_len_f', 'trunc_len_r', 'trim_left_f', 'trim_left_r', 'max_ee',
+    def keys = ['variable', 'variable_type', 'max_reads', 'trunc_len_f', 'trunc_len_r', 'auto_trunc_q', 'auto_trunc_floor', 'trim_left_f', 'trim_left_r', 'max_ee',
                 'rawdir', 'procdir', 'silva_db', 'silva_species_db', 'silva_version', 'min_boot', 'min_depth', 'tax_level', 'seed', 'rarefaction_depth', 'da_binarize', 'da_reference', 'da_covariates', 'da_covariate_refs', 'da_alpha', 'da_lfc', 'da_min_prev']
     def pmap = params.subMap(keys) + [pipeline_name: workflow.manifest.name, pipeline_version: workflow.manifest.version]
 
