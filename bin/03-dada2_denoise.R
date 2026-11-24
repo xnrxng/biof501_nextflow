@@ -38,7 +38,11 @@ auto_trunc <- function(files, q = 30, floor_len = 50) {
   len
 }
 
-tl <- function(v, files) if (identical(v, "auto")) auto_trunc(files) else as.integer(v)
+auto_q     <- as.numeric(opt("auto_trunc_q", 30))                       # quality threshold used by 'auto'
+auto_floor <- as.integer(opt("auto_trunc_floor", 50))                   # shortest length 'auto' may choose
+if (is.na(auto_q) || auto_q <= 0) stop("--auto_trunc_q must be a positive number (a Phred score)", call. = FALSE)
+if (is.na(auto_floor) || auto_floor < 0) stop("--auto_trunc_floor must be 0 or a positive integer", call. = FALSE)
+tl <- function(v, files) if (identical(v, "auto")) auto_trunc(files, auto_q, auto_floor) else as.integer(v)
 trunc_f <- tl(opt("trunc_f", "auto"), f1)
 trunc_r <- if (paired) tl(opt("trunc_r", "auto"), f2) else 0L
 cat(sprintf("paired=%s trunc_f=%d trunc_r=%d\n", paired, trunc_f, trunc_r))

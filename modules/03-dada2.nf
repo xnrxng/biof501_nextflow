@@ -17,6 +17,7 @@ process DADA2 {
     """
     03-dada2_denoise.R --threads ${task.cpus} --max_ee ${params.max_ee} \\
         --trunc_f ${params.trunc_len_f} --trunc_r ${params.trunc_len_r} \\
+        --auto_trunc_q ${params.auto_trunc_q} --auto_trunc_floor ${params.auto_trunc_floor} \\
         --trim_left_f ${params.trim_left_f} --trim_left_r ${params.trim_left_r}
     """
 }
