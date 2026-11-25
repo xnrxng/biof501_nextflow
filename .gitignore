@@ -1,5 +1,4 @@
 work/
-results/
 .nextflow*
 *.log
 data/data_raw/

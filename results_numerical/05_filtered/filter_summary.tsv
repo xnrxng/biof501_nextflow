@@ -1,5 +1,0 @@
-step	n_asv	n_reads	n_samples
-denoised ASV table	557	243592	6
-samples matched to metadata	557	243592	6
-removed unassigned / eukaryote / mitochondria / chloroplast	554	243134	6
-removed samples below min_depth	554	243134	6
