@@ -12,20 +12,22 @@ Because these functions depend on which microbes are present and in what proport
 
 Therefore, a central question across fields is how diverse each community is, how communities differ between conditions, and which specific taxa drive those differences. Alpha and beta diversity adress the first two questions, respectively. Differential abundance analysis addresses the latter one by identifying taxa whose abundance changes with a variable of interest.
 
-Communities are commonly profiled by sequencing the 16S ribosomal RNA gene (14). This gene is present in all bacteria and archaea and contains conserved regions, which allow universal PCR primers (14). Interspersed with the conserved regions, there are variable regions, which differ enough between taxa to identify them (14). The reads are grouped into amplicon sequence variants (ASVs), classified into taxa, and the resulting table of counts per taxa per sample is compared across the condition of interest. Thus, this Nextflow pipeline performs on 16S rRNA amplicon data to answer the following questions:
+Communities are commonly profiled by sequencing the 16S ribosomal RNA gene (14). This gene is present in all bacteria and archaea and contains conserved regions, which allow universal PCR primers (14). Interspersed with the conserved regions, there are variable regions, which differ enough between taxa to identify them (14). The reads are grouped into amplicon sequence variants (ASVs), classified into taxa, and the resulting table of counts per taxa per sample is compared across the condition of interest. Thus, this Nextflow pipeline analyzes 16S rRNA amplicon data to answer the following questions:
 
 - How diverse is each sample (alpha diversity) and how different are the samples from each other (beta diversity)?
 - Which taxa are more or less abundant when a variable of interest changes?
 
 ## Pipeline steps
 
-This pipeline requires at the minimum a CSV metadata file with one row per sample. The first column should correspond to the SRA accession numbers of the samples of interest, whose path is specified with the parameter `metadata`. There should also be another column in the metadata that will serve as the variable of interest, whose name can be specified with the parameter `variable`. The SRA accession numbers must correspond to Illumina 16s rRNA samples. An example of what this file should look like can be found in `data/data_raw/colombia_metadata.csv`. 
+This pipeline requires at the minimum a CSV metadata file with one row per sample. The first column should correspond to the SRA accession numbers of the samples of interest, whose path is specified with the parameter `metadata`. There should also be another column in the metadata that will serve as the variable of interest, whose name can be specified with the parameter `variable`. The SRA accession numbers must correspond to Illumina 16s rRNA samples. An example of what this file should look like can be found in `data/data_raw/colombia_metadata.csv`.
+
+The major steps in the pipeline are:
 
 1. Fetch reads: downloads the SRA runs specified by the user (must be public accessions specified in the first column of the metadata file), converts it to FASTQ with `fasterq-dump`, optionally cuts it to the first `max_reads` reads, and compresses the result.
 2. Metadata preparation: checks the metadata and the chosen variable, decides if it is numeric or categorical, writes a clean table and plots the distribution of the variable (histogram or barplot depending on if it is numeric or categorical).
 3. Denoising with DADA2 (15): truncates reads before the first position the median falls below Q30 (quality threshold can be specified with `auto_trunc_q`, or override it by specifying numbers of bases to trim with `--trunc_f` and `--trunc_r`) and will also generate aggregated quality profiles. Reads are also discarded if they have more than `max_ee`. Then, learns the error model, denoises, merges pairs if applicable, and removes chimeras. Also runs FastQC and MultiQC (16, 17) to generate a report on the QC of the reads. At the end, a table of ASVs is generated.
-4. Classifying taxonomy: classifies the ASVs into taxa against a SILVA (18) dataset using a naive Bayesian classifier. The default one used is SILVA nr99 v138.1, but a different one can be specified with `silva_db` and `silva_species_db`. It can be an URL or a local path. `silva_species_db` is needed as a reference for the species-level assignment step. It will also generate bar plots of the total and relative abundance of each classified taxa for each sample. The taxa level can be specified by the user with `tax_level` (default is family).
-5. Filtering: keeps only samples present in both the counts and the metadata, drops ASVs that are unassigned, drops mitochondrial, or chloroplast ASVs, removes samples with fewer reads than `min_depth` (default 1000), discards ASVs left with zero counts, and aggregates to the ASVs to the requested taxonomic level (specified by `tax_level`, default is family). It will also generate bar plots of the total and relative abundance of each classified taxa for each sample, after filtering.
+4. Classifying taxonomy: classifies the ASVs into taxa against a SILVA (18) dataset using DADA2's naive Bayesian classifier. The default one used is SILVA nr99 v138.1, but a different one can be specified with `silva_db` and `silva_species_db`. It can be an URL or a local path. `silva_species_db` is needed as a reference for the species-level assignment step. It will also generate bar plots of the total and relative abundance of each classified taxa for each sample. The taxa level can be specified by the user with `tax_level` (default is family).
+5. Filtering: keeps only samples present in both the counts and the metadata, drops ASVs that are unassigned, drops mitochondrial, or chloroplast ASVs, removes samples with fewer reads than `min_depth` (default 1000), discards ASVs left with zero counts, and aggregates the ASVs to the requested taxonomic level (specified by `tax_level`, default is family). It will also generate bar plots of the total and relative abundance of each classified taxa for each sample, after filtering.
 6. Diversity: rarefies by the smallest sample, but it can be overriden with `rarefaction_depth`. A rarefaction curve will also be generated for inspection at this step. Then, computes Shannon's diversity index (19) for alpha diversity and Bray-Curtis dissimilarity (PCoA) (11) for beta diversity, and tests them against the variable. For Shannon's diversity, if the variable is numeric it will do Spearman correlation, Wilcoxon rank-sum for 2 levels of a categorical variable, and Kruskal-Wallis with pairwie Wilcoxon BH-adjusted for more than 3 levels of a categorical variable. For Bray-Curtis, it will do PERMANOVA for a numerical variable, and PERMANOVA+PERMDISP for a categorical variable.
 7. Differential abundance analysis with DESeq2 (20): uses DESeq2 to perform differential abundance analysis on the filtered counts aggregated at the `tax_level`, can be optially adjusted for covariates with `da_covariates`. 
 8. Report: makes an HTML report to collect all the outputs.
@@ -162,23 +164,23 @@ To install Docker, you will first need to create an account [here](https://app.d
 
 Then, scroll down to the bottom of [this page](https://docs.docker.com/desktop/) and click on Windows/Mac/Linux under "Install Docker Desktop". Follow the instructions on the page to install Docker Desktop. Once installed, login into your newly created account.
 
-If you are on Mac, you can type the following to make sure the installation was successful:
+- If you are on Mac, you can type the following to make sure the installation was successful:
 
 ```bash
 docker run hello-world
 ```
 
-If you are on Windows through WSL2, make sure you enable WSL integration on Docker Desktop (under "Settings", "WSL integration). Then run the following to make sure the installation was successful:
+- If you are on Windows through WSL2, make sure you enable WSL integration on Docker Desktop (under "Settings", "WSL integration). Then run the following to make sure the installation was successful:
 
 ```bash
 docker run hello-world
 ```
 
-If you are on Linux, you will need to install Docker CE for Ubuntu by following [these instructions](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository), under "Install using the apt repository". Next, follow the Linux post-installation steps [here](https://docs.docker.com/engine/install/linux-postinstall/), under "Manage Docker as a non-root user". Confirm that docker is working by following the verification instructions on that same page.
+- If you are on Linux, you will need to install Docker CE for Ubuntu by following [these instructions](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository), under "Install using the apt repository". Next, follow the Linux post-installation steps [here](https://docs.docker.com/engine/install/linux-postinstall/), under "Manage Docker as a non-root user". Confirm that docker is working by following the verification instructions on that same page.
 
 ### Running the pipeline
 
-Ensure you have Docker Desktop running before proceeding, as well as an SSH key.
+Ensure you have Docker Desktop running before proceeding, as well as an SSH key set up.
 
 ```bash
 # get repository
@@ -313,7 +315,7 @@ Claude was used in the following ways:
 - as it is my first time working with Nextflow, navigated me through starting a Nextflow pipeline, its components, its code syntax, amongst other aspects of working with Nextflow
 - generated the tree stucture for the directory and `results` folder (only the tree structure, NOT the explanation of each file)
 
-I declare that the rest of the work, the one not aforementioned in the list, is my own work. This includes but not limited to: coming up with the pipeline idea, designing the pipeline steps, looking for the example data, writing the README and main code, organizing the repository structure (folders, names of files), creating the presentation and script linked to this pipeline, amongst other work.
+I declare that the rest of the work, the ones not aforementioned in the list, is my own work. This includes but not limited to: coming up with the pipeline idea, designing the pipeline steps, looking for the example data, writing the README and main code, organizing the repository structure (folders, names of files), creating the presentation and script linked to this pipeline, amongst other work.
 
 ## References
 
