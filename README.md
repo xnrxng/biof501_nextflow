@@ -2,7 +2,7 @@
 
 ## Land acknowledgement statement
 
-I acknowledge that this pipeline was developed at UBC's Vancouver campus, which is situated on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam) people.
+I acknowledge that this pipeline was developed at UBC's Vancouver campus, which is situated on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam) people. I also acknowledge the people of Colombia whose data are used in the example run, and the Indigenous peoples of the lands where the samples were collected. I am grateful for their contribution to open science, and I commit to using such data respectfully.
 
 ## Background and Rationale
 
